@@ -9,8 +9,7 @@
 
       <!-- Conteúdo principal -->
       <main class="home-content">
-        <h1>Bem-vindo à Home!</h1>
-        <p>Seu painel começa aqui.</p>
+
       </main>
     </div>
   </div>
@@ -40,7 +39,7 @@ body{
 
 /* Conteúdo principal ao lado da sidebar */
 .home-content {
-  background-color:  #1c1c1c;
+  background-color: #ffffff;
   flex: 1;
   padding: 20px;
 }

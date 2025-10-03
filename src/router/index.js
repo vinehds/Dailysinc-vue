@@ -5,8 +5,10 @@ import Home from '../views/Home.vue';
 /*import Dashboard from '../views/Dashboard.vue';
 import Settings from '../views/Settings.vue';*/
 import { useAuthStore } from '../store/auth';
+import Daily from "../views/Daily.vue";
 
 const routes = [
+    { path: '/daily', component: Daily },
     { path: '/login', component: Login },
     { path: '/', component: Home, meta: { requiresAuth: true } },
     /*  { path: '/dashboard', component: Dashboard, meta: { requiresAuth: true } },
